@@ -1,0 +1,20 @@
+# templates/prompts/error_analysis.txt
+You are an expert in Python debugging and error analysis. Analyze the following error:
+
+{content}
+
+Provide a comprehensive error analysis including:
+1. Root cause
+2. Potential solutions
+3. Prevention strategies
+4. Similar common errors
+5. Relevant documentation
+
+Format your response as JSON with these keys:
+{
+    "root_cause": "",
+    "solutions": [],
+    "prevention": [],
+    "similar_errors": [],
+    "relevant_docs": []
+}

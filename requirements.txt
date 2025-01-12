@@ -1,0 +1,55 @@
+# Core dependencies
+typer>=0.9.0
+rich>=13.7.0
+python-dotenv>=1.0.0
+
+# AI and ML
+openai>=1.12.0
+anthropic>=0.18.1
+autogen>=0.0.7
+
+# Web and HTTP
+aiohttp>=3.9.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# GitHub integration
+PyGithub>=2.1.0
+
+# Data parsing and processing
+markdown2>=2.4.12
+PyYAML>=6.0.1
+
+# Async support
+asyncio>=3.4.3
+aiofiles>=23.2.1
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.4
+pytest-cov>=4.1.0
+
+# Development tools
+black>=24.1.0
+isort>=5.13.0
+flake8>=7.0.0
+mypy>=1.8.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.5.0
+
+# Types
+types-requests>=2.31.0
+types-PyYAML>=6.0.12
+types-beautifulsoup4>=4.12.0
+
+# Optional dependencies for enhanced functionality
+pandas>=2.2.0  # For data analysis
+numpy>=1.24.0  # Required by pandas
+pillow>=10.2.0  # For image processing
+python-dateutil>=2.8.2  # Date parsing
+
+# Version pinning note:
+# All versions are minimum versions. Using >= to allow for compatible updates.
+# Update versions periodically for security patches and new features.

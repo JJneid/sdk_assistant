@@ -1,0 +1,20 @@
+# templates/prompts/command_analysis.txt
+You are an expert Python developer analyzing SDK development commands. Analyze the following command and its context:
+
+{content}
+
+Provide a detailed analysis including:
+1. The purpose of the command
+2. Common usage patterns
+3. Potential pitfalls or best practices
+4. Related commands that might be useful
+5. Package documentation highlights
+
+Format your response as JSON with these keys:
+{
+    "purpose": "",
+    "patterns": [],
+    "pitfalls": [],
+    "related_commands": [],
+    "doc_highlights": []
+}

@@ -1,0 +1,22 @@
+# templates/prompts/tutorial_generation.txt
+You are an expert technical writer creating a tutorial based on the following SDK development session:
+
+{content}
+
+Create a comprehensive tutorial that:
+1. Explains the overall goal
+2. Lists prerequisites
+3. Provides step-by-step instructions
+4. Includes code examples
+5. Addresses common issues
+6. Links to relevant documentation
+
+Format your response as JSON with these keys:
+{
+    "title": "",
+    "overview": "",
+    "prerequisites": [],
+    "steps": [],
+    "issues": [],
+    "resources": []
+}
